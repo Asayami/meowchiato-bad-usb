@@ -15,7 +15,7 @@ void setup() {
 void loop() {
   if (Serial.available()) {
     String text = Serial.readStringUntil('\n');
-    if (text == "hack") {
+    if (text == "meowchiato") {
       run();
     }
   }
